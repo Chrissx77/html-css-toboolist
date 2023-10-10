@@ -84,13 +84,44 @@ button:hover {
 
 .arrow::before{
     content:"\2965";
+    font-size: 15px;
 }
 
 .arrow{
     font-size: 20px;
+
 }
 
 .tasks{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.check-v::before{
+    content: "\2714";
+    padding: 3px;
+    font-size: 6px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+}
+
+.check{
+    font-size: 12px;
+}
+
+.btn-check{
+    font-size: 8px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    border-color: lightskyblue;
+    background-color: lightskyblue ;
+
+}
+
+.text-task{
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
