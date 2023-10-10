@@ -15,7 +15,7 @@ body {
 
 
 /* Stili Header */
-.content {
+.container {
     width: 97%;
     height: 45px;
     margin: 0px auto;
@@ -34,19 +34,18 @@ body {
 
 
 /* Stili Main */
-
 main {
     font-size: 13px;
 }
 
-.content2 {
+.container-tableTasks {
     width: 70%;
     margin: 25px auto;
     background-color: white;
     border-radius: 5px;
 }
 
-.content3 {
+.container-textTasks {
     width: 90%;
     margin: 0px auto;
     padding-top: 5px;
@@ -83,7 +82,7 @@ button:hover {
 }
 
 .arrow::before{
-    content:"\2965";
+    content:"\25BC";
     font-size: 15px;
 }
 
@@ -107,7 +106,7 @@ button:hover {
 }
 
 .check-x::before{
-    content: "\2716";
+    content: "\2718";
     padding: 2px;
     font-size: 6px;
     color: red;
@@ -119,7 +118,7 @@ button:hover {
     font-size: 12px;
 }
 
-.btn-check{
+.btn-check-editorial{
     font-size: 8px;
     font-weight: 400;
     width: auto;
@@ -130,7 +129,18 @@ button:hover {
 
 }
 
-.btn-check1{
+.btn-check-sales{
+    font-size: 8px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: lightskyblue ;
+
+}
+
+.btn-check-q1goals{
     font-size: 8px;
     font-weight: 400;
     width: auto;
@@ -141,7 +151,7 @@ button:hover {
 
 }
 
-.btn-check2{
+.btn-check-recruiting{
     font-size: 8px;
     font-weight: 400;
     width: auto;
@@ -151,7 +161,7 @@ button:hover {
     background-color: green;
 }
 
-.btn-check3{
+.btn-check-mobile{
     font-size: 8px;
     font-weight: 400;
     width: auto;
@@ -161,7 +171,7 @@ button:hover {
     background-color: orange;
 }
 
-.btn-check4{
+.btn-check-website{
     font-size: 8px;
     font-weight: 400;
     width: auto;
@@ -171,14 +181,14 @@ button:hover {
     background-color: purple;
 }
 
-.btn-check5{
+.btn-check-editorial-g{
     font-size: 8px;
     font-weight: 400;
     width: auto;
     border-radius: 10px;
     color: white;
     border: none;
-    background-color: lightgreen;
+    background-color: lightskyblue;
 }
 
 .text-task{
