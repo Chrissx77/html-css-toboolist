@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Roboto',Verdana, Tahoma, sans-serif;
     font-weight: bold;
     zoom: 150%;
@@ -43,6 +42,7 @@ main{
 /* Stili Main */
 main {
     font-size: 13px;
+    color: gray;
 }
 
 .container-tableTasks {
@@ -68,6 +68,7 @@ button {
     width: 80px;
     height: 25px;
     font-weight: bold;
+    color: white;
 
 }
 
@@ -76,11 +77,17 @@ button {
 }
 
 #btn-hover {
-    background-color: lightseagreen;
+    background-color: lightskyblue;
 }
 
-button:hover {
-    background-color: lightseagreen;
+#btn-notHover:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+#btn-notHover{
+    color: lightgray;
+
 }
 
 .border {
