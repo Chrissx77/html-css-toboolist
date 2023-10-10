@@ -52,7 +52,6 @@ main {
 }
 
 button {
-    outline: none;
     border: 1px solid lightgrey;
     border-radius: 5px;
     cursor: pointer;
