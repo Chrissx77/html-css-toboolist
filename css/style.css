@@ -1,9 +1,44 @@
+/* Inizializzazione CSS */
 body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    background-color:lightblue;
 }
 
 *{
-    font-family: 'Roboto' Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+/* Stili Header */
+.content{
+    width: 97%;
+    height: 45px;
+    margin: 0px auto;
+}
+
+#navBar{
+    background-color: white;
+}
+
+#logo{
+    font-weight: bold;
+}
+
+.image{
+    width: 40px;
+}
+
+/* Stili Main */
+.content2{
+    width: 70%;
+    margin: 25px auto;
+    background-color: white;
+}
+
+.content3{
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 5px;
 }
