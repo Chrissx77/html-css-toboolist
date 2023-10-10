@@ -6,9 +6,7 @@ body{
     background-color:lightblue;
 }
 
-*{
-    font-size: 20px;
-}
+
 
 
 /* Stili Header */
@@ -23,22 +21,54 @@ body{
 }
 
 #logo{
-    font-weight: bold;
+    height: 43px;
+    line-height: 43px;
+    vertical-align: middle;
 }
 
-.image{
-    width: 40px;
+
+#logo-text{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 
 /* Stili Main */
 .content2{
     width: 70%;
     margin: 25px auto;
     background-color: white;
+    border-radius: 5px;
 }
 
 .content3{
     width: 90%;
     margin: 0px auto;
     padding-top: 5px;
+}
+
+button{
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 8px;
+    width: 60px;
+    height: 25px;
+    font-weight: ;
+
+}
+
+.btn{
+    padding-bottom: 5px;
+}
+
+button:hover{
+    background-color: lightseagreen;
+}
+
+.border{
+    border-bottom: 2px solid lightblue;
 }
