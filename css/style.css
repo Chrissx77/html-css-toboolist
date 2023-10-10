@@ -99,10 +99,19 @@ button:hover {
 
 .check-v::before{
     content: "\2714";
-    padding: 3px;
+    padding: 2px;
     font-size: 6px;
     color: green;
     border: 1px solid green;
+    border-radius: 100%;
+}
+
+.check-x::before{
+    content: "\2716";
+    padding: 2px;
+    font-size: 6px;
+    color: red;
+    border: 1px solid red;
     border-radius: 100%;
 }
 
@@ -116,9 +125,60 @@ button:hover {
     width: auto;
     border-radius: 10px;
     color: white;
-    border-color: lightskyblue;
+    border: none;
     background-color: lightskyblue ;
 
+}
+
+.btn-check1{
+    font-size: 8px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: violet;
+
+}
+
+.btn-check2{
+    font-size: 8px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: green;
+}
+
+.btn-check3{
+    font-size: 8px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: orange;
+}
+
+.btn-check4{
+    font-size: 8px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: purple;
+}
+
+.btn-check5{
+    font-size: 8px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: lightgreen;
 }
 
 .text-task{
