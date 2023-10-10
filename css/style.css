@@ -1,7 +1,11 @@
 /* Inizializzazione CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Roboto',Verdana, Tahoma, sans-serif;
     font-weight: bold;
+    zoom: 150%;
 }
 
 body {
@@ -11,6 +15,9 @@ body {
     background-color: lightblue;
 }
 
+main{
+    font-weight: 500;
+}
 
 
 
@@ -23,7 +30,7 @@ body {
 
 #navBar {
     background-color: white;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 #logo {
