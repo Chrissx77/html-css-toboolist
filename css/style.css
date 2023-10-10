@@ -1,53 +1,58 @@
 /* Inizializzazione CSS */
-body{
+:root {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color:lightblue;
+    background-color: lightblue;
 }
 
 
 
 
 /* Stili Header */
-.content{
+.content {
     width: 97%;
     height: 45px;
     margin: 0px auto;
 }
 
-#navBar{
+#navBar {
     background-color: white;
+    font-size: 25px;
 }
 
-#logo{
+#logo {
     height: 43px;
     line-height: 43px;
     vertical-align: middle;
 }
 
 
-#logo-text{
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+/* Stili Main */
+
+main {
+    font-size: 13px;
 }
 
-
-/* Stili Main */
-.content2{
+.content2 {
     width: 70%;
     margin: 25px auto;
     background-color: white;
     border-radius: 5px;
 }
 
-.content3{
+.content3 {
     width: 90%;
     margin: 0px auto;
     padding-top: 5px;
 }
 
-button{
+button {
     outline: none;
     border: 1px solid lightgrey;
     border-radius: 5px;
@@ -55,20 +60,37 @@ button{
     background-color: transparent;
     text-decoration: none;
     font-size: 8px;
-    width: 60px;
+    width: 80px;
     height: 25px;
-    font-weight: ;
+    font-weight: bold;
 
 }
 
-.btn{
+.btn {
     padding-bottom: 5px;
 }
 
-button:hover{
+#btn-hover {
     background-color: lightseagreen;
 }
 
-.border{
+button:hover {
+    background-color: lightseagreen;
+}
+
+.border {
     border-bottom: 2px solid lightblue;
+}
+
+.arrow::before{
+    content:"\2965";
+}
+
+.arrow{
+    font-size: 20px;
+}
+
+.tasks{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
